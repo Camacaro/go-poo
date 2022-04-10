@@ -1,0 +1,20 @@
+
+Crear Modulos
+
+1. Crear la carpeta (08-modulos)
+2. Entrar a la carpeta y ejecutar el siguiente comandp
+3. $ go mod init NOMBRE_DEL_MODULO
+3a. Recomendacion para escribir el nombre que publicaremos en github
+3b. github.com/NOMBRE_USUARIO/NOMBRE_MODULO 
+3c. github.com/Camacaro/test
+4. $ go mod init github.com/Camacaro/test
+5. Intatlar un paquete externo
+6. $ go get github.com/donvito/hellomod
+6a. $ go get github.com/donvito/hellomod/v2
+7. Opcional, remover paquetes que no uses
+7a. $ go mod tidy
+7b. Revisar donde se guardan los paquetes en local
+7c. $ go mod download -json
+8. Crear build
+8a. $ go build main.go 
+8b. $ ./main 
