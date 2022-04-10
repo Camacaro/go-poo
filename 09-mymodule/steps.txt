@@ -1,0 +1,10 @@
+Crear Modulos
+
+1. Crear la carpeta (08-modulos)
+2. Entrar a la carpeta y ejecutar el siguiente comandp
+3. $ go mod init NOMBRE_DEL_MODULO
+
+Instalar mi modulos
+
+1. $ go get github.com/Camacaro/go-my-mod-helloworld
+2. Crear el main e importar el paquete
