@@ -1,2 +1,4 @@
 main
 coverage.out
+*.out
+*.test
