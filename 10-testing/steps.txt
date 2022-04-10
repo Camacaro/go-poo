@@ -1,0 +1,27 @@
+
+1. Para poder correr test, tiene que estar
+dentro de un modulo.
+$ go mod init github.com/Camacaro/testing
+
+2. Los archivos de test tienen que terminar en 
+_test.go
+
+3. Usar las funciones normal dentro del archivo _test
+
+4. Correr test 
+$ go test
+
+5. Go internamente tiene su set de test no hay que instalar 
+librerias externas 
+
+6. Code coverage
+$ go test -cover
+
+Crear archivo de coverage
+$ go test -coverprofile=coverage.out
+
+Ver mejor el archivo creado 
+$ go tool cover -func=coverage.out
+
+Aun Mejor la lectura del archivo 
+$ go tool cover -html=coverage.out
