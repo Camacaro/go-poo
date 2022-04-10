@@ -25,3 +25,15 @@ $ go tool cover -func=coverage.out
 
 Aun Mejor la lectura del archivo 
 $ go tool cover -html=coverage.out
+
+Medir el CPU del computador para ver el consumo de la funciones
+Ver porque nuestro programa tarda tanto
+$ go test -cpuprofile=cpu.out
+
+Ver el archivo CPU 
+$ go tool pprof cpu.out
+Comandos internos dentro del pprof
+$ top (muestra una lista de los que mas consumen)
+$ list NAME_FUNCTION (muestra mejor el tiempo en donde esta el problema)
+$ web (genera un vga para ver el reporte)
+$ pdf (generar el pdf con el repoerte)
