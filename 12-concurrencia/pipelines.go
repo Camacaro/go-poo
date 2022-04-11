@@ -32,7 +32,7 @@ func Print(c <-chan int) {
 	}
 }
 
-func mainCop() {
+func mainCopilot() {
 	// Creamos un canal de tipo int
 	c := make(chan int)
 	// Creamos un canal de tipo int
