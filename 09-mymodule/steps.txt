@@ -1,6 +1,6 @@
 Crear Modulos
 
-1. Crear la carpeta (08-modulos)
+1. Crear la carpeta (09-mymodule)
 2. Entrar a la carpeta y ejecutar el siguiente comandp
 3. $ go mod init NOMBRE_DEL_MODULO
 
